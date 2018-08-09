@@ -97,4 +97,16 @@ namespace LearningAlgorithm
         }
         
     }
+    public class Print
+    {
+        public static void PrintIntArray(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(arr[i]);
+                Console.Write(" ");
+            }
+            Console.WriteLine("");
+        }
+    }
 }
